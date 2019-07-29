@@ -1,0 +1,15 @@
+.list {
+	max-width: 1170px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 25px;
+	margin:auto;
+}
+.post {
+	display: flex;
+	flex-direction: column;
+}
+.post img{
+	height: 200px;
+	max-width: 100%;
+}
